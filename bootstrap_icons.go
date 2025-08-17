@@ -4,7 +4,12 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func BootstrapIconsCss_1_13_1() string {
+	return "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+}
+
 func BootstrapIconsCss_1_11_3() string {
+
 	return cdnBase("https://cdn.jsdelivr.net/npm/") + "bootstrap-icons@1.11.3/font/bootstrap-icons.css"
 }
 
