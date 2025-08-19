@@ -1,3 +1,3 @@
-module github.com/gouniverse/cdn
+module github.com/dracory/cdn
 
-go 1.22
+go 1.24.5
