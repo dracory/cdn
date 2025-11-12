@@ -5,6 +5,15 @@ package cdn
 // Keep in reverse alphabetical order (latest version on top)
 
 // ======================= version 5.3.7 ======================= //
+func BootstrapCss_5_3_8() string {
+	return "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+}
+
+func BootstrapJs_5_3_8() string {
+	return cdnBase("https://cdn.jsdelivr.net/npm/") + "bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+}
+
+// ======================= version 5.3.7 ======================= //
 func BootstrapCss_5_3_7() string {
 	return "https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
 }
