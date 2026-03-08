@@ -104,7 +104,8 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### JQuery
 
-- Jquery_3_7_1() - latest
+- Jquery_4_0_0() - latest
+- Jquery_3_7_1()
 - Jquery_3_6_4()
 
 ### JQuery DataTables
