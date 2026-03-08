@@ -7,9 +7,17 @@ import (
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func TestTailwindCss_4_2_1(t *testing.T) {
+	output := TailwindCss_4_2_1()
+	expected := "tailwindcss.com/4.2.1"
+	if !strings.Contains(output, expected) {
+		t.Error("Does not contain '" + expected + "', Output:" + output)
+	}
+}
+
 func TestTailwindCss_Browser_4(t *testing.T) {
 	output := TailwindCss_Browser_4()
-	expected := "cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+	expected := "@tailwindcss/browser@4"
 	if !strings.Contains(output, expected) {
 		t.Error("Does not contain '" + expected + "', Output:" + output)
 	}

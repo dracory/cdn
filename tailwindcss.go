@@ -4,6 +4,10 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func TailwindCss_4_2_1() string {
+	return "https://cdn.tailwindcss.com/4.2.1"
+}
+
 func TailwindCss_Browser_4() string {
 	return "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
 }
