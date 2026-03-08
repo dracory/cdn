@@ -19,7 +19,7 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | AlpineJS          | 3.13.0  | 3.15.8        | ✅ Done | Medium   |
 | AnimatedCSS       | 4.1.1   | NEED TO CHECK | Pending | Low      |
 | jQuery            | 3.7.1   | 4.0.0         | ✅ Done | Medium   |
-| jQuery DataTables | 1.13.4  | NEED TO CHECK | Pending | Medium   |
+| jQuery DataTables | 1.13.4  | 2.3.7         | ✅ Done | Medium   |
 | JQTree            | 1.8.0   | NEED TO CHECK | Pending | Low      |
 | Notify            | 0.4.2   | NEED TO CHECK | Pending | Low      |
 | SweetAlert2       | 11      | NEED TO CHECK | Pending | Medium   |
