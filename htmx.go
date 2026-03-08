@@ -2,6 +2,10 @@ package cdn
 
 // URL: https://htmx.org/
 
+func Htmx_2_0_8() string {
+	return cdnBase("https://unpkg.com/") + "htmx.org@2.0.8/dist/htmx.min.js"
+}
+
 func Htmx_2_0_0() string {
 	return cdnBase("https://unpkg.com/") + "htmx.org@2.0.0/dist/htmx.min.js"
 }

@@ -10,6 +10,20 @@ import (
 
 var cdnURL = "https://my-custom-cdn.com/"
 
+func TestHtmx_2_0_8(t *testing.T) {
+	os.Setenv("CDN_URL_PREFIX", cdnURL)
+	defer os.Unsetenv("CDN_URL_PREFIX")
+
+	output := Htmx_2_0_8()
+	expected := "htmx.org@2.0.8"
+	if !strings.Contains(output, expected) {
+		t.Error("Does not contain '" + expected + "', Output:" + output)
+	}
+	if !strings.HasPrefix(output, cdnURL) {
+		t.Error("Does not have custom CDN prefix")
+	}
+}
+
 func TestHtmx_2_0_0(t *testing.T) {
 	os.Setenv("CDN_URL_PREFIX", cdnURL)
 	defer os.Unsetenv("CDN_URL_PREFIX")
