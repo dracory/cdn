@@ -27,8 +27,10 @@ If the `CDN_URL_PREFIX` environment variable is set, it will be used as the base
 
 ### AlpineJS
 
-- AlpineJs_3_13_0 - latest
-- AlpineJs_3_12_3
+- AlpineJs_3_15_8() - latest
+- AlpineJs_3_13_8()
+- AlpineJs_3_13_0()
+- AlpineJs_3_12_3()
 
 ### AnimatedCSS
 

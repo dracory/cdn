@@ -16,7 +16,7 @@ This document serves as both a version tracker and maintenance guide for the cdn
 
 | Library           | Current | Latest        | Status  | Priority |
 | ----------------- | ------- | ------------- | ------- | -------- |
-| AlpineJS          | 3.13.0  | NEED TO CHECK | Pending | Medium   |
+| AlpineJS          | 3.13.0  | 3.15.8        | ✅ Done | Medium   |
 | AnimatedCSS       | 4.1.1   | NEED TO CHECK | Pending | Low      |
 | jQuery            | 3.7.1   | NEED TO CHECK | Pending | Medium   |
 | jQuery DataTables | 1.13.4  | NEED TO CHECK | Pending | Medium   |
