@@ -126,6 +126,7 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### Notify
 
+- Notify_3_0_0() - latest
 - Notify_0_4_2()
 
 ### SweetAlert v2
