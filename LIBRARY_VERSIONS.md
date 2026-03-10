@@ -25,7 +25,7 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | SweetAlert2       | 11      | 11.26.22      | ✅ Done | Medium   |
 | Trumbowyg         | 2.27.3  | 2.31.0        | ✅ Done | Medium   |
 | VueJS             | 3       | 3.5.30        | ✅ Done | Medium   |
-| Vue Element Plus  | 2.3.8   | NEED TO CHECK | Pending | Medium   |
+| Vue Element Plus  | 2.3.8   | 2.13.5        | ✅ Done | Medium   |
 | Vue Trumbowyg     | 4.0.0   | NEED TO CHECK | Pending | Low      |
 | ChartsCSS         | 0.9.3   | NEED TO CHECK | Pending | Low      |
 
