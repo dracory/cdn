@@ -20,7 +20,7 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | AnimatedCSS       | 4.1.1   | 4.1.1         | ✅ Done | Low      |
 | jQuery            | 3.7.1   | 4.0.0         | ✅ Done | Medium   |
 | jQuery DataTables | 1.13.4  | 2.3.7         | ✅ Done | Medium   |
-| JQTree            | 1.8.0   | NEED TO CHECK | Pending | Low      |
+| JQTree            | 1.8.0   | 1.8.3         | ✅ Done | Low      |
 | Notify            | 0.4.2   | NEED TO CHECK | Pending | Low      |
 | SweetAlert2       | 11      | 11.26.22      | ✅ Done | Medium   |
 | Trumbowyg         | 2.27.3  | 2.31.0        | ✅ Done | Medium   |
