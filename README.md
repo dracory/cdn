@@ -128,7 +128,8 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### SweetAlert v2
 
-- Sweetalert2_11() - latest
+- Sweetalert2_11_26_22() - latest
+- Sweetalert2_11()
 - Sweetalert2_10()
 
 ### Tailwind
@@ -139,6 +140,8 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### Trumbowyg
 
+- TrumbowygCss_2_31_0() - latest
+- TrumbowygJs_2_31_0() - latest
 - TrumbowygCss_2_27_3()
 - TrumbowygJs_2_27_3()
 

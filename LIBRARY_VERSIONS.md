@@ -22,8 +22,8 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | jQuery DataTables | 1.13.4  | 2.3.7         | ✅ Done | Medium   |
 | JQTree            | 1.8.0   | NEED TO CHECK | Pending | Low      |
 | Notify            | 0.4.2   | NEED TO CHECK | Pending | Low      |
-| SweetAlert2       | 11      | NEED TO CHECK | Pending | Medium   |
-| Trumbowyg         | 2.27.3  | NEED TO CHECK | Pending | Medium   |
+| SweetAlert2       | 11      | 11.26.22      | ✅ Done | Medium   |
+| Trumbowyg         | 2.27.3  | 2.31.0        | ✅ Done | Medium   |
 | VueJS             | 3       | NEED TO CHECK | Pending | Medium   |
 | Vue Element Plus  | 2.3.8   | NEED TO CHECK | Pending | Medium   |
 | Vue Trumbowyg     | 4.0.0   | NEED TO CHECK | Pending | Low      |
