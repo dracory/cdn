@@ -14,20 +14,20 @@ This document serves as both a version tracker and maintenance guide for the cdn
 
 ### 🔄 Remaining Libraries to Update
 
-| Library           | Current | Latest        | Status  | Priority |
-| ----------------- | ------- | ------------- | ------- | -------- |
-| AlpineJS          | 3.13.0  | 3.15.8        | ✅ Done | Medium   |
-| AnimatedCSS       | 4.1.1   | 4.1.1         | ✅ Done | Low      |
-| jQuery            | 3.7.1   | 4.0.0         | ✅ Done | Medium   |
-| jQuery DataTables | 1.13.4  | 2.3.7         | ✅ Done | Medium   |
-| JQTree            | 1.8.0   | 1.8.3         | ✅ Done | Low      |
-| Notify            | 0.4.2   | 3.0.0         | ✅ Done | Low      |
-| SweetAlert2       | 11      | 11.26.22      | ✅ Done | Medium   |
-| Trumbowyg         | 2.27.3  | 2.31.0        | ✅ Done | Medium   |
-| VueJS             | 3       | 3.5.30        | ✅ Done | Medium   |
-| Vue Element Plus  | 2.3.8   | 2.13.5        | ✅ Done | Medium   |
-| Vue Trumbowyg     | 4.0.0   | NEED TO CHECK | Pending | Low      |
-| ChartsCSS         | 0.9.3   | 1.2.0         | ✅ Done | Low      |
+| Library           | Current | Latest   | Status  | Priority |
+| ----------------- | ------- | -------- | ------- | -------- |
+| AlpineJS          | 3.13.0  | 3.15.8   | ✅ Done | Medium   |
+| AnimatedCSS       | 4.1.1   | 4.1.1    | ✅ Done | Low      |
+| jQuery            | 3.7.1   | 4.0.0    | ✅ Done | Medium   |
+| jQuery DataTables | 1.13.4  | 2.3.7    | ✅ Done | Medium   |
+| JQTree            | 1.8.0   | 1.8.3    | ✅ Done | Low      |
+| Notify            | 0.4.2   | 3.0.0    | ✅ Done | Low      |
+| SweetAlert2       | 11      | 11.26.22 | ✅ Done | Medium   |
+| Trumbowyg         | 2.27.3  | 2.31.0   | ✅ Done | Medium   |
+| VueJS             | 3       | 3.5.30   | ✅ Done | Medium   |
+| Vue Element Plus  | 2.3.8   | 2.13.5   | ✅ Done | Medium   |
+| Vue Trumbowyg     | 4.0.0   | 4.0.0    | ✅ Done | Low      |
+| ChartsCSS         | 0.9.3   | 1.2.0    | ✅ Done | Low      |
 
 ## Update Process
 
