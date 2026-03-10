@@ -147,6 +147,7 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### VueJS
 
+- VueJs_3_5_30() - latest
 - VueJs_3()
 - VueElementPlusCss_2_3_8()
 - VueElementPlusJs_2_3_8()
