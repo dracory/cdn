@@ -74,6 +74,8 @@ If the `CDN_URL_PREFIX` environment variable is set, it will be used as the base
 - BootstrapIconsCss_1_10_2()
 - BootstrapIconsCss_1_9_1()
 
+- ChartsCss_1_2_0() - latest
+- ChartsCss_1_1_0()
 - ChartsCss_0_9_3()
 
 - FontAwesomeCss_7_2_0() - latest
