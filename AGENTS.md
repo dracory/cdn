@@ -4,7 +4,37 @@ This file contains instructions for AI agents working on the cdn package.
 
 ## Overview
 
-The cdn package provides CDN URLs for popular frontend libraries. The goal is to keep library versions up to date while maintaining backward compatibility and comprehensive testing.
+- **Module**: `github.com/dracory/cdn`
+- **Go Version**: 1.26
+- **Purpose**: Provides CDN URLs for popular frontend libraries in Go web applications
+
+The goal is to keep library versions up to date while maintaining backward compatibility and comprehensive testing.
+
+## Core Architecture
+
+### `cdn.go`
+
+Contains the `cdnBase()` helper function that:
+- Checks for `CDN_URL_PREFIX` environment variable
+- Returns custom CDN prefix if set, otherwise uses the original CDN base URL
+- Allows users to override the default jsDelivr CDN with their own
+
+### Library Files
+
+Each library has:
+
+- `[library_name].go` - Contains version functions returning CDN URLs
+- `[library_name]_test.go` - Contains corresponding tests
+
+**Naming Convention**: `LibraryName_Version_Major_Minor_Patch()`  
+**Example**: `BootstrapCss_5_3_8()`
+
+**Ordering**: Reverse alphabetical order - latest versions at the top of each file
+
+### Documentation Files
+
+- `README.md` - Public documentation with latest versions
+- `LIBRARY_VERSIONS.md` - Internal tracking and maintenance guide
 
 ## Current Status
 
@@ -53,20 +83,6 @@ Invoke-WebRequest -Uri 'https://cdn.jsdelivr.net/npm/[package-name]@[version]/[f
 
 - Execute `go test ./...` to ensure all tests pass
 - Verify no regressions in existing functionality
-
-## File Structure
-
-### Library Files
-
-Each library has:
-
-- `[library_name].go` - Contains version functions
-- `[library_name]_test.go` - Contains corresponding tests
-
-### Documentation Files
-
-- `README.md` - Public documentation with latest versions
-- `LIBRARY_VERSIONS.md` - Internal tracking and maintenance guide
 
 ## Best Practices
 
