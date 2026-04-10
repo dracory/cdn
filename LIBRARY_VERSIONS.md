@@ -22,6 +22,7 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | jQuery DataTables | 1.13.4  | 2.3.7    | ✅ Done | Medium   |
 | JQTree            | 1.8.0   | 1.8.3    | ✅ Done | Low      |
 | Notify            | 0.4.2   | 3.0.0    | ✅ Done | Low      |
+| Slazy             | -       | 0.5.0    | ✅ Done | Low      |
 | SweetAlert2       | 11      | 11.26.22 | ✅ Done | Medium   |
 | Trumbowyg         | 2.27.3  | 2.31.0   | ✅ Done | Medium   |
 | VueJS             | 3       | 3.5.30   | ✅ Done | Medium   |

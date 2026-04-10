@@ -8,28 +8,9 @@ The cdn package provides CDN URLs for popular frontend libraries. The goal is to
 
 ## Current Status
 
-### ✅ Completed Updates (March 8, 2026)
+**For the latest version information, see [LIBRARY_VERSIONS.md](./LIBRARY_VERSIONS.md).**
 
-- **Bootstrap**: 5.3.7 → 5.3.8
-- **FontAwesome**: 6.5.2 → 7.2.0
-- **HTMX**: 2.0.0 → 2.0.8
-- **Bootstrap Icons**: 1.11.3 → 1.13.1 (already had latest)
-- **TailwindCSS**: 3.4.4 → 4.2.1
-
-### 🔄 Remaining Libraries to Update
-
-- AlpineJS (3.13.0)
-- AnimatedCSS (4.1.1)
-- jQuery (3.7.1)
-- jQuery DataTables (1.13.4)
-- JQTree (1.8.0)
-- Notify (0.4.2)
-- SweetAlert2 (11)
-- Trumbowyg (2.27.3)
-- VueJS (3)
-- Vue Element Plus (2.3.8)
-- Vue Trumbowyg (4.0.0)
-- ChartsCSS (0.9.3)
+This file tracks all library versions, update status, and remaining work in a single source of truth.
 
 ## Update Process
 

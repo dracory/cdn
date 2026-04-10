@@ -135,6 +135,10 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 - Sweetalert2_11()
 - Sweetalert2_10()
 
+### Slazy
+
+- Slazy_0_5_0() - latest
+
 ### Tailwind
 
 - TailwindCss_4_2_1() - latest
