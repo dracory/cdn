@@ -2,33 +2,55 @@
 
 This document serves as both a version tracker and maintenance guide for the cdn package.
 
-## Current Status (Updated: March 8, 2026)
+## Current Status (Updated: April 10, 2026)
 
 ### ✅ Completed Updates
 
-- **Bootstrap**: 5.3.7 → 5.3.8 ✅
-- **FontAwesome**: 6.5.2 → 7.2.0 ✅
-- **HTMX**: 2.0.0 → 2.0.8 ✅
-- **Bootstrap Icons**: 1.11.3 → 1.13.1 ✅ (already had latest)
-- **TailwindCSS**: 3.4.4 → 4.2.1 ✅
+- **AlpineJS**: 3.15.8 → 3.15.11 ✅
+- **Animate.css**: 4.1.1 (latest) ✅
+- **Bootstrap**: 5.3.8 (latest) ✅
+- **Bootstrap Icons**: 1.13.1 (latest) ✅
+- **ChartsCSS**: 1.2.0 (latest) ✅
+- **DataTables**: 2.2.2 → 2.3.7 ✅
+- **FontAwesome**: 7.2.0 (latest) ✅
+- **HTMX**: 2.0.8 (latest) ✅
+- **jQuery**: 4.0.0 (latest) ✅
+- **jQuery DataTables**: 2.3.7 (latest) ✅
+- **jQueryUI**: 1.13.1 → 1.14.2 ✅
+- **JQTree**: 1.8.3 → 1.8.8 ✅
+- **Notiflix**: 3.2.8 (latest) ✅
+- **Notify**: 3.0.0 (latest) ✅
+- **Slazy**: 0.5.0 (latest) ✅
+- **SweetAlert2**: 11.26.22 (latest) ✅
+- **TailwindCSS**: 4.2.1 → 4.2.2 ✅
+- **Trumbowyg**: 2.31.0 (latest) ✅
+- **Vue Element Plus**: 2.13.5 → 2.13.7 ✅
+- **VueJS**: 3.5.30 → 3.5.32 ✅
 
-### 🔄 Remaining Libraries to Update
+### � Library Version Summary
 
-| Library           | Current | Latest   | Status  | Priority |
-| ----------------- | ------- | -------- | ------- | -------- |
-| AlpineJS          | 3.13.0  | 3.15.8   | ✅ Done | Medium   |
-| AnimatedCSS       | 4.1.1   | 4.1.1    | ✅ Done | Low      |
-| jQuery            | 3.7.1   | 4.0.0    | ✅ Done | Medium   |
-| jQuery DataTables | 1.13.4  | 2.3.7    | ✅ Done | Medium   |
-| JQTree            | 1.8.0   | 1.8.3    | ✅ Done | Low      |
-| Notify            | 0.4.2   | 3.0.0    | ✅ Done | Low      |
-| Slazy             | -       | 0.5.0    | ✅ Done | Low      |
-| SweetAlert2       | 11      | 11.26.22 | ✅ Done | Medium   |
-| Trumbowyg         | 2.27.3  | 2.31.0   | ✅ Done | Medium   |
-| VueJS             | 3       | 3.5.30   | ✅ Done | Medium   |
-| Vue Element Plus  | 2.3.8   | 2.13.5   | ✅ Done | Medium   |
-| Vue Trumbowyg     | 4.0.0   | 4.0.0    | ✅ Done | Low      |
-| ChartsCSS         | 0.9.3   | 1.2.0    | ✅ Done | Low      |
+| Library           | Latest   | Status  |
+| ----------------- | -------- | ------- |
+| AlpineJS          | 3.15.11  | ✅      |
+| Animate.css       | 4.1.1    | ✅      |
+| Bootstrap         | 5.3.8    | ✅      |
+| Bootstrap Icons   | 1.13.1   | ✅      |
+| ChartsCSS         | 1.2.0    | ✅      |
+| DataTables        | 2.3.7    | ✅      |
+| FontAwesome       | 7.2.0    | ✅      |
+| HTMX              | 2.0.8    | ✅      |
+| jQuery            | 4.0.0    | ✅      |
+| jQuery DataTables | 2.3.7    | ✅      |
+| jQueryUI          | 1.14.2   | ✅      |
+| JQTree            | 1.8.8    | ✅      |
+| Notiflix          | 3.2.8    | ✅      |
+| Notify            | 3.0.0    | ✅      |
+| Slazy             | 0.5.0    | ✅      |
+| SweetAlert2       | 11.26.22 | ✅      |
+| TailwindCSS       | 4.2.2    | ✅      |
+| Trumbowyg         | 2.31.0   | ✅      |
+| Vue Element Plus  | 2.13.7   | ✅      |
+| VueJS             | 3.5.32   | ✅      |
 
 ## Update Process
 
@@ -40,13 +62,25 @@ Use the jsDelivr API to check for latest versions:
 Invoke-WebRequest -Uri 'https://data.jsdelivr.com/v1/package/npm/[package-name]' -UseBasicParsing | Select-Object -ExpandProperty Content | ConvertFrom-Json | Select-Object -ExpandProperty tags | Format-List
 ```
 
-### 2. Verify CDN Availability
+### 2. Verify CDN Availability (REQUIRED)
 
-Test that the latest version is available on the CDN:
+**Always verify the CDN URL is accessible before adding new versions:**
 
+#### For npm packages (jsDelivr):
 ```powershell
-Invoke-WebRequest -Uri 'https://cdn.jsdelivr.net/npm/[package-name]@[version]/[file]'
+Invoke-WebRequest -Uri 'https://cdn.jsdelivr.net/npm/[package-name]@[version]/[file]' -Method HEAD
 ```
+
+#### For GitHub releases (jsDelivr gh):
+```powershell
+# Check GitHub API for latest release
+Invoke-WebRequest -Uri 'https://api.github.com/repos/[owner]/[repo]/releases/latest' -UseBasicParsing | Select-Object -ExpandProperty Content | ConvertFrom-Json | Select-Object tag_name
+
+# Then verify CDN URL
+Invoke-WebRequest -Uri 'https://cdn.jsdelivr.net/gh/[owner]/[repo]@[version]/[file]' -Method HEAD
+```
+
+**Do not add versions that fail CDN verification.**
 
 ### 3. Add New Version Functions
 
