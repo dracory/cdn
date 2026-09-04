@@ -5,6 +5,22 @@ import (
 	"testing"
 )
 
+func TestDataTablesCss_3_0_3(t *testing.T) {
+	output := DataTablesCss_3_0_3()
+	expected := "/3.0.3/css/dataTables.dataTables.min.css"
+	if !strings.Contains(output, expected) {
+		t.Error("Does not contain '" + expected + "', Output:" + output)
+	}
+}
+
+func TestDataTablesJs_3_0_3(t *testing.T) {
+	output := DataTablesJs_3_0_3()
+	expected := "/3.0.3/js/dataTables.min.js"
+	if !strings.Contains(output, expected) {
+		t.Error("Does not contain '" + expected + "', Output:" + output)
+	}
+}
+
 func TestDataTablesCss_2_3_7(t *testing.T) {
 	output := DataTablesCss_2_3_7()
 	expected := "https://cdn.datatables.net/2.3.7/css/dataTables.dataTables.min.css"

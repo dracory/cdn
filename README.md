@@ -27,7 +27,9 @@ If the `CDN_URL_PREFIX` environment variable is set, it will be used as the base
 
 ### AlpineJS
 
-- AlpineJs_3_15_8() - latest
+- AlpineJs_3_17_1() - latest
+- AlpineJs_3_15_11()
+- AlpineJs_3_15_8()
 - AlpineJs_3_13_8()
 - AlpineJs_3_13_0()
 - AlpineJs_3_12_3()
@@ -78,7 +80,8 @@ If the `CDN_URL_PREFIX` environment variable is set, it will be used as the base
 - ChartsCss_1_1_0()
 - ChartsCss_0_9_3()
 
-- FontAwesomeCss_7_2_0() - latest
+- FontAwesomeCss_7_3_1() - latest
+- FontAwesomeCss_7_2_0()
 - FontAwesomeCss_6_5_2()
 - FontAwesomeCss_6_4_2()
 - FontAwesomeCss_6_1_2()
@@ -95,7 +98,8 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### HTMX
 
-- Htmx_2_0_8() - latest
+- Htmx_2_0_10() - latest
+- Htmx_2_0_8()
 - Htmx_2_0_0()
 - Htmx_1_9_11()
 - Htmx_1_9_9()
@@ -110,6 +114,13 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 - Jquery_3_7_1()
 - Jquery_3_6_4()
 
+### DataTables
+
+- DataTablesCss_3_0_3() - latest
+- DataTablesJs_3_0_3() - latest
+- DataTablesCss_2_3_7()
+- DataTablesJs_2_3_7()
+
 ### JQuery DataTables
 
 - JqueryDataTablesCss_2_3_7() - latest
@@ -119,6 +130,10 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### JQTree
 
+- JqTreeCss_1_9_0() - latest
+- JqTreeJs_1_9_0() - latest
+- JqTreeCss_1_8_8()
+- JqTreeJs_1_8_8()
 - JqTreeCss_1_8_0()
 - JqTreeJs_1_8_0()
 - JqTreeCss_1_7_0()
@@ -131,7 +146,8 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### SweetAlert v2
 
-- Sweetalert2_11_26_22() - latest
+- Sweetalert2_11_26_25() - latest
+- Sweetalert2_11_26_22()
 - Sweetalert2_11()
 - Sweetalert2_10()
 
@@ -141,7 +157,9 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### Tailwind
 
-- TailwindCss_4_2_1() - latest
+- TailwindCss_4_3_3() - latest
+- TailwindCss_4_2_2()
+- TailwindCss_4_2_1()
 - TailwindCss_3_4_4()
 - TailwindCss_3_3_3()
 
@@ -154,10 +172,16 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 
 ### VueJS
 
-- VueJs_3_5_30() - latest
+- VueJs_3_5_42() - latest
+- VueJs_3_5_32()
+- VueJs_3_5_30()
 - VueJs_3()
-- VueElementPlusCss_2_13_5() - latest
-- VueElementPlusJs_2_13_5() - latest
+- VueElementPlusCss_2_14_5() - latest
+- VueElementPlusJs_2_14_5() - latest
+- VueElementPlusCss_2_13_7()
+- VueElementPlusJs_2_13_7()
+- VueElementPlusCss_2_13_5()
+- VueElementPlusJs_2_13_5()
 - VueElementPlusCss_2_3_8()
 - VueElementPlusJs_2_3_8()
 - VueTrumbowyg_4_0_0()

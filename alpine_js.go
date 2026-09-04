@@ -2,6 +2,10 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func AlpineJs_3_17_1() string {
+	return cdnBase("https://cdn.jsdelivr.net/npm/") + "alpinejs@3.17.1/dist/cdn.min.js"
+}
+
 func AlpineJs_3_15_11() string {
 	return cdnBase("https://cdn.jsdelivr.net/npm/") + "alpinejs@3.15.11/dist/cdn.min.js"
 }

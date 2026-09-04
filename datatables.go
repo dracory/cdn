@@ -1,5 +1,13 @@
 package cdn
 
+func DataTablesCss_3_0_3() string {
+	return cdnBase("https://cdn.datatables.net") + "/3.0.3/css/dataTables.dataTables.min.css"
+}
+
+func DataTablesJs_3_0_3() string {
+	return cdnBase("https://cdn.datatables.net") + "/3.0.3/js/dataTables.min.js"
+}
+
 func DataTablesCss_2_3_7() string {
 	return cdnBase("https://cdn.datatables.net") + "/2.3.7/css/dataTables.dataTables.min.css"
 }
