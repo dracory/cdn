@@ -4,6 +4,10 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func TailwindCss_4_3_3() string {
+	return "https://cdn.tailwindcss.com/4.3.3"
+}
+
 func TailwindCss_4_2_2() string {
 	return "https://cdn.tailwindcss.com/4.2.2"
 }

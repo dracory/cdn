@@ -2,6 +2,10 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func VueJs_3_5_42() string {
+	return cdnBase("https://cdn.jsdelivr.net/npm/") + "vue@3.5.42/dist/vue.global.prod.js"
+}
+
 func VueJs_3_5_32() string {
 	return cdnBase("https://cdn.jsdelivr.net/npm/") + "vue@3.5.32/dist/vue.global.prod.js"
 }

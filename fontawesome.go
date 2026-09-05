@@ -2,6 +2,10 @@ package cdn
 
 // Keep in reverse alphabetical order (latest version on top)
 
+func FontAwesomeCss_7_3_1() string {
+	return cdnBase("https://cdn.jsdelivr.net/npm/") + "@fortawesome/fontawesome-free@7.3.1/css/fontawesome.min.css"
+}
+
 func FontAwesomeCss_7_2_0() string {
 	return cdnBase("https://cdn.jsdelivr.net/npm/") + "@fortawesome/fontawesome-free@7.2.0/css/fontawesome.min.css"
 }

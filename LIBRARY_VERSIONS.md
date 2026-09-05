@@ -6,51 +6,51 @@ This document serves as both a version tracker and maintenance guide for the cdn
 
 ### ✅ Completed Updates
 
-- **AlpineJS**: 3.15.8 → 3.15.11 ✅
+- **AlpineJS**: 3.15.11 → 3.17.1 ✅
 - **Animate.css**: 4.1.1 (latest) ✅
 - **Bootstrap**: 5.3.8 (latest) ✅
 - **Bootstrap Icons**: 1.13.1 (latest) ✅
 - **ChartsCSS**: 1.2.0 (latest) ✅
-- **DataTables**: 2.2.2 → 2.3.7 ✅
-- **FontAwesome**: 7.2.0 (latest) ✅
-- **HTMX**: 2.0.8 (latest) ✅
+- **DataTables**: 2.3.7 → 3.0.3 ✅
+- **FontAwesome**: 7.2.0 → 7.3.1 ✅
+- **HTMX**: 2.0.8 → 2.0.10 ✅
 - **jQuery**: 4.0.0 (latest) ✅
 - **jQuery DataTables**: 2.3.7 (latest) ✅
 - **jQueryUI**: 1.13.1 → 1.14.2 ✅
-- **JQTree**: 1.8.3 → 1.8.8 ✅
+- **JQTree**: 1.8.8 → 1.9.0 ✅
 - **Notiflix**: 3.2.8 (latest) ✅
 - **Notify**: 3.0.0 (latest) ✅
 - **Slazy**: 0.5.0 (latest) ✅
-- **SweetAlert2**: 11.26.22 (latest) ✅
-- **TailwindCSS**: 4.2.1 → 4.2.2 ✅
+- **SweetAlert2**: 11.26.22 → 11.26.25 ✅
+- **TailwindCSS**: 4.2.2 → 4.3.3 ✅
 - **Trumbowyg**: 2.31.0 (latest) ✅
-- **Vue Element Plus**: 2.13.5 → 2.13.7 ✅
-- **VueJS**: 3.5.30 → 3.5.32 ✅
+- **Vue Element Plus**: 2.13.7 → 2.14.5 ✅
+- **VueJS**: 3.5.32 → 3.5.42 ✅
 
 ### � Library Version Summary
 
 | Library           | Latest   | Status  |
 | ----------------- | -------- | ------- |
-| AlpineJS          | 3.15.11  | ✅      |
+| AlpineJS          | 3.17.1   | ✅      |
 | Animate.css       | 4.1.1    | ✅      |
 | Bootstrap         | 5.3.8    | ✅      |
 | Bootstrap Icons   | 1.13.1   | ✅      |
 | ChartsCSS         | 1.2.0    | ✅      |
-| DataTables        | 2.3.7    | ✅      |
-| FontAwesome       | 7.2.0    | ✅      |
-| HTMX              | 2.0.8    | ✅      |
+| DataTables        | 3.0.3    | ✅      |
+| FontAwesome       | 7.3.1    | ✅      |
+| HTMX              | 2.0.10   | ✅      |
 | jQuery            | 4.0.0    | ✅      |
 | jQuery DataTables | 2.3.7    | ✅      |
 | jQueryUI          | 1.14.2   | ✅      |
-| JQTree            | 1.8.8    | ✅      |
+| JQTree            | 1.9.0    | ✅      |
 | Notiflix          | 3.2.8    | ✅      |
 | Notify            | 3.0.0    | ✅      |
 | Slazy             | 0.5.0    | ✅      |
-| SweetAlert2       | 11.26.22 | ✅      |
-| TailwindCSS       | 4.2.2    | ✅      |
+| SweetAlert2       | 11.26.25 | ✅      |
+| TailwindCSS       | 4.3.3    | ✅      |
 | Trumbowyg         | 2.31.0   | ✅      |
-| Vue Element Plus  | 2.13.7   | ✅      |
-| VueJS             | 3.5.32   | ✅      |
+| Vue Element Plus  | 2.14.5   | ✅      |
+| VueJS             | 3.5.42   | ✅      |
 
 ## Update Process
 
