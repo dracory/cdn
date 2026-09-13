@@ -2,7 +2,7 @@
 
 This document serves as both a version tracker and maintenance guide for the cdn package.
 
-## Current Status (Updated: April 10, 2026)
+## Current Status (Updated: September 13, 2026)
 
 ### ✅ Completed Updates
 
@@ -12,12 +12,14 @@ This document serves as both a version tracker and maintenance guide for the cdn
 - **Bootstrap Icons**: 1.13.1 (latest) ✅
 - **ChartsCSS**: 1.2.0 (latest) ✅
 - **DataTables**: 2.3.7 → 3.0.3 ✅
+- **DOMPurify**: 3.4.14 (latest) ✅
 - **FontAwesome**: 7.2.0 → 7.3.1 ✅
 - **HTMX**: 2.0.8 → 2.0.10 ✅
 - **jQuery**: 4.0.0 (latest) ✅
 - **jQuery DataTables**: 2.3.7 (latest) ✅
 - **jQueryUI**: 1.13.1 → 1.14.2 ✅
 - **JQTree**: 1.8.8 → 1.9.0 ✅
+- **Marked**: 18.0.11 (latest) ✅
 - **Notiflix**: 3.2.8 (latest) ✅
 - **Notify**: 3.0.0 (latest) ✅
 - **Slazy**: 0.5.0 (latest) ✅
@@ -37,12 +39,14 @@ This document serves as both a version tracker and maintenance guide for the cdn
 | Bootstrap Icons   | 1.13.1   | ✅      |
 | ChartsCSS         | 1.2.0    | ✅      |
 | DataTables        | 3.0.3    | ✅      |
+| DOMPurify         | 3.4.14   | ✅      |
 | FontAwesome       | 7.3.1    | ✅      |
 | HTMX              | 2.0.10   | ✅      |
 | jQuery            | 4.0.0    | ✅      |
 | jQuery DataTables | 2.3.7    | ✅      |
 | jQueryUI          | 1.14.2   | ✅      |
 | JQTree            | 1.9.0    | ✅      |
+| Marked            | 18.0.11  | ✅      |
 | Notiflix          | 3.2.8    | ✅      |
 | Notify            | 3.0.0    | ✅      |
 | Slazy             | 0.5.0    | ✅      |

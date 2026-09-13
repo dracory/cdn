@@ -34,6 +34,10 @@ If the `CDN_URL_PREFIX` environment variable is set, it will be used as the base
 - AlpineJs_3_13_0()
 - AlpineJs_3_12_3()
 
+### DOMPurify
+
+- DOMPurify_3_4_14() - latest
+
 ### AnimatedCSS
 
 - AnimatedCSS_4_1_1 - latest
@@ -138,6 +142,10 @@ cdn.GoogleFont("Josefin Sans", "300,400,500")
 - JqTreeJs_1_8_0()
 - JqTreeCss_1_7_0()
 - JqTreeJs_1_7_0()
+
+### Marked
+
+- Marked_18_0_11() - latest
 
 ### Notify
 
